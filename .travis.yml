@@ -4,7 +4,7 @@ sudo: false # Allows Travis to run this project in container
 
 deploy:
   provider: pages
-  local_dir: ./public//
+  local_dir: ./public/
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
       on:
