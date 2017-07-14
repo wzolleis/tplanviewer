@@ -1,13 +1,9 @@
-language: node_js # Node runs `npm install` and `npm test` automatically
-node_js: node # Uses the latest version (via nvm)
-sudo: false # Allows Travis to run this project in container
-
+language: node_js
+node_js: node
+sudo: false
 deploy:
   provider: pages
   local_dir: ./public/
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-      on:
-        branch: master
-
-
+  branch: master
