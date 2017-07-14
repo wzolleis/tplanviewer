@@ -6,7 +6,7 @@ window.Plans = (function () {
             description: 'Schulterziehen',
             hersteller: 'Panatto',
             saetze: '1+3',
-            gewicht: '15',
+            gewicht: '25',
             muskelgruppe: 'Schulter',
             image: 'images/avatars/daniel.jpg',
         },
