@@ -1,5 +1,4 @@
-window.Plans = (function () {
-    const plan = {
+{
         plan: {
             version: 1,
             exercises: [
@@ -105,9 +104,4 @@ window.Plans = (function () {
                 },
             ]
         }
-    };
-
-    const exercises = plan.exercises;
-
-    return {exercises: exercises};
-}());
+    }
