@@ -12,7 +12,7 @@ import com.amazonaws.services.s3.model.ListObjectsV2Request
 
 fun main(args: Array<String>) {
     val awsCreds = BasicAWSCredentials("AKIAJBFRNLDCXGMT6VEA", "")
-    var s3Client = AmazonS3ClientBuilder.standard()
+    val s3Client = AmazonS3ClientBuilder.standard()
             .withCredentials(AWSStaticCredentialsProvider(awsCreds))
             .withRegion("eu-central-1") //regionProvider.getRegion())
             .build()
